@@ -13,14 +13,21 @@
     />
   </head>
   <body>
-    <include src="./partials/header.html"></include>
+    <header>
+      <include src="./partials/header-small.html"></include>
+      <include src="./partials/header-big.html"></include>
+    </header>
     <main>
       <include src="./partials/hero.html"></include>
       <include src="./partials/features.html"></include>
       <include src="./partials/courses.html"></include>
       <include src="./partials/connection.html"></include>
       <include src="./partials/blog.html"></include>
+      <include src="./partials/video.html"></include>
     </main>
+    <footer>
+      <include src="./partials/footer.html"></include>
+    </footer>
 
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
     <!-- <script src="./index.js"></script> -->
