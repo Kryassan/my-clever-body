@@ -4,7 +4,7 @@
     min-height: 645px;
     padding-top: 210px;
     background-image: url("../images/main/hero/hero360-1px.webp"), url("../images/main/hero/hero360-1px.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     z-index: 0;
@@ -84,16 +84,16 @@
     }
 
     @media screen and (min-width: 1920px) {
-        min-width: 1920px;
+        width: 100%;
         min-height: 1080px;
         padding-top: 336px;
         padding-right: 148px;
-        background-image: url("../images/main/hero/hero1920-1px.webp"), url("../images/main/hero/hero1920-1px.jpg");
+        background-image: url("../images/main/hero/hero1920-1x.webp"), url("../images/main/hero/hero1920-1x.jpg");
     
         @media screen and (min-device-pixel-ratio: 2),
             screen and (min-resolution: 192dpi),
             screen and (min-resolution: 2dppx) {
-            background-image: url("../images/main/hero/hero1920-2px.webp"), url("../images/main/hero/hero1920-2px.jpg");
+            background-image: url("../images/main/hero/hero1920-2x.webp"), url("../images/main/hero/hero1920-2x.jpg");
         }
     }
 }
