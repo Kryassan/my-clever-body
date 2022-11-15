@@ -213,6 +213,7 @@ button {
   border: 1px solid #AC8A1A;
   border-radius: 25px 0px 0px 20px;
   background-color: #F6F6F6;
+  z-index: 3;
 }
 @media screen and (min-width: 393px) {
   .header__mobile-menu {
@@ -254,13 +255,13 @@ button {
 }
 @media screen and (min-width: 393px) {
   .nav-mobile {
-    min-height: 680px;
-    padding-bottom: 78px;
+    min-height: 720px;
+    padding-bottom: 70px;
   }
 }
-@media screen and (min-width: 393px) {
+@media screen and (min-width: 768px) {
   .nav-mobile {
-    min-height: 830px;
+    min-height: 850px;
     padding-bottom: 100px;
   }
 }
