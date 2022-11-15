@@ -222,7 +222,7 @@ button {
 }
 @media screen and (min-width: 768px) {
   .header__mobile-menu {
-    left: 43%;
+    left: 44%;
     width: 430px;
   }
 }
@@ -242,7 +242,7 @@ button {
   display: block;
   width: 56px;
   height: 52px;
-  background-image: url("../images/svg/burger.svg");
+  background-image: url("../images/svg/burgerClose.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -250,8 +250,8 @@ button {
 }
 
 .nav-mobile {
-  min-height: 520px;
-  padding-bottom: 36px;
+  min-height: 660px;
+  padding-bottom: 60px;
 }
 @media screen and (min-width: 393px) {
   .nav-mobile {
@@ -304,7 +304,7 @@ button {
 .hero {
   display: block;
   min-width: 360px;
-  min-height: 645px;
+  min-height: 800px;
   padding-top: 210px;
   background-image: url("../images/main/hero/hero360-1px.webp"), url("../images/main/hero/hero360-1px.jpg");
   background-size: cover;
@@ -320,7 +320,7 @@ button {
 @media screen and (min-width: 393px) {
   .hero {
     min-width: 393px;
-    min-height: 851px;
+    min-height: 873px;
     padding-top: 268px;
     background-image: url("../images/main/hero/hero393-1px.webp"), url("../images/main/hero/hero393-1px.jpg");
   }
@@ -438,5 +438,40 @@ button {
 @media screen and (min-width: 1920px) {
   .hero__title {
     font-size: 84px;
+  }
+}
+
+.features {
+  width: 360px;
+  height: 800px;
+}
+@media screen and (min-width: 393px) {
+  .features {
+    height: 873px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .features {
+    height: 1024px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .features {
+    height: 800px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .features {
+    height: 768px;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .features {
+    height: 864px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .features {
+    height: 1080px;
   }
 }/*# sourceMappingURL=main.css.map */

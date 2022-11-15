@@ -1,7 +1,7 @@
 .hero {
     display: block;
     min-width: 360px;
-    min-height: 645px;
+    min-height: 800px;
     padding-top: 210px;
     background-image: url("../images/main/hero/hero360-1px.webp"), url("../images/main/hero/hero360-1px.jpg");
     background-size: cover;
@@ -17,7 +17,7 @@
     
     @media screen and (min-width: 393px){
         min-width: 393px;
-        min-height: 851px;
+        min-height: 873px;
         padding-top: 268px;
         background-image: url("../images/main/hero/hero393-1px.webp"), url("../images/main/hero/hero393-1px.jpg");
 
