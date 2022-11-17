@@ -442,10 +442,13 @@ button {
 }
 
 .features {
-  width: 360px;
-  height: 800px;
   background-image: url("../images/main/features/features_mandala.png");
   background-size: cover;
+}
+@media screen and (min-width: 360px) and (max-width: 392px) {
+  .features {
+    height: 800px;
+  }
 }
 @media screen and (min-width: 393px) {
   .features {
@@ -509,6 +512,22 @@ button {
 @media screen and (min-width: 1366px) {
   .features__inner {
     height: 768px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .features__inner {
+    height: 864px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .features__inner {
+    height: 1080px;
+    padding-top: 160px;
+    padding-bottom: 160px;
   }
 }
 
@@ -522,6 +541,12 @@ button {
 @media screen and (min-width: 768px) {
   .features__list {
     width: 592px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .features__list {
+    width: 770px;
     margin: 0 auto;
   }
 }
@@ -558,6 +583,13 @@ button {
     margin-right: 70px;
   }
 }
+@media screen and (min-width: 1920px) {
+  .features__icon {
+    width: 220px;
+    height: 160px;
+    margin-right: 100px;
+  }
+}
 
 .icon-first {
   background-image: url("../images/svg/yoga_2.svg");
@@ -585,6 +617,11 @@ button {
 @media screen and (min-width: 768px) {
   .features__text {
     font-size: 38px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .features__text {
+    font-size: 50px;
   }
 }
 
