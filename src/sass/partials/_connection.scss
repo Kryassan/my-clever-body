@@ -1,0 +1,92 @@
+.connection {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 280px;
+    padding-bottom: 102px;
+}
+
+.connection__title--box {
+    position: absolute;
+    left: 0px;
+    top: 110px;
+    display: block;
+    width: 250px;
+    height: 90px;
+    background-color: $accent-style;
+    border: 0.5px dashed #DFCDFC;
+}
+
+.connection__title {
+    font-family: $text-title;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.32;
+    text-align: center;
+    color: $accent-assist;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.connection__text {
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 1.12;
+    color: $accent;
+}
+
+.connection__icon {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    width: 250px;
+    height: 170px;
+    background-image: url("../images/svg/phone.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.connection__button {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 165px;
+    height: 40px;
+    background: $accent-button;
+    border: 1px solid #AC8A1A;
+    box-shadow: -1px -1px 18px rgba(0, 0, 0, 0.14), 1px 1px 18px rgba(0, 0, 0, 0.14);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.connection__button--text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 1.33;
+    text-align: center;
+    color: $accent-assist;
+}
+
+.connection__arrow--box {
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.connection__arrow {
+    display: block;
+    width: 9px;
+    height: 20px;
+    background-image: url("../images/svg/button__arrow.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

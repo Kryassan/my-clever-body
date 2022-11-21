@@ -84,9 +84,8 @@
 }
 
 .header__mobile {
-    display: none;
     position: absolute;
-    // display: flex;      включити коли прибрати display none
+    display: flex;      
     justify-content: space-between;
     padding-top: 10px;
     align-items: center;
@@ -122,11 +121,12 @@
 }
 
 .header__mobile-menu {
+    display: none;
     position: absolute;
     left: 4%;
     width: 334px;
     height: 100vh;
-    display: flex;
+    // display: flex;                  включити коли прибрати display none
     flex-direction: column;
     justify-content: space-between;
     border: 1px solid $accent;
