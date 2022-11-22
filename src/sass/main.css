@@ -951,14 +951,14 @@ button {
   }
 }
 
-.button__arrow--box {
+.courses__arrow--box {
   display: flex;
   width: auto;
   align-items: center;
   justify-content: space-between;
 }
 
-.button__arrow {
+.courses__arrow {
   display: block;
   width: 9px;
   height: 20px;
@@ -968,19 +968,19 @@ button {
   background-repeat: no-repeat;
 }
 @media screen and (min-width: 393px) {
-  .button__arrow {
+  .courses__arrow {
     width: 11px;
     height: 22px;
   }
 }
 @media screen and (min-width: 768px) {
-  .button__arrow {
+  .courses__arrow {
     width: 15px;
     height: 24px;
   }
 }
 @media screen and (min-width: 1920px) {
-  .button__arrow {
+  .courses__arrow {
     width: 18px;
     height: 30px;
   }
@@ -988,9 +988,42 @@ button {
 
 .connection {
   position: relative;
+  width: 360px;
   margin: 0 auto;
   padding-top: 280px;
   padding-bottom: 102px;
+}
+@media screen and (min-width: 393px) {
+  .connection {
+    width: 393px;
+    padding-top: 320px;
+    padding-bottom: 110px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .connection {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .connection {
+    width: 1280px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .connection {
+    width: 1366px;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .connection {
+    width: 1536px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .connection {
+    width: 1920px;
+  }
 }
 
 .connection__title--box {
@@ -1003,6 +1036,43 @@ button {
   background-color: #EAECFB;
   border: 0.5px dashed #DFCDFC;
 }
+@media screen and (min-width: 393px) {
+  .connection__title--box {
+    top: 114px;
+    width: 282px;
+    height: 94px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .connection__title--box {
+    width: 478px;
+    height: 142px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .connection__title--box {
+    width: 524px;
+    height: 144px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .connection__title--box {
+    width: 492px;
+    height: 146px;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .connection__title--box {
+    width: 568px;
+    height: 152px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .connection__title--box {
+    width: 672px;
+    height: 188px;
+  }
+}
 
 .connection__title {
   font-family: "Cormorant Infant", sans-serif;
@@ -1014,6 +1084,31 @@ button {
   color: #C6A603;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
 }
+@media screen and (min-width: 393px) {
+  .connection__title {
+    font-size: 34px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .connection__title {
+    font-size: 53px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .connection__title {
+    font-size: 54px;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .connection__title {
+    font-size: 56px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .connection__title {
+    font-size: 68px;
+  }
+}
 
 .connection__text {
   text-align: center;
@@ -1022,6 +1117,12 @@ button {
   font-size: 23px;
   line-height: 1.12;
   color: #AC8A1A;
+}
+@media screen and (min-width: 393px) {
+  .connection__text {
+    font-size: 25px;
+    margin-bottom: 90px;
+  }
 }
 
 .connection__icon {
@@ -1035,6 +1136,12 @@ button {
   background-position: center;
   background-repeat: no-repeat;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+@media screen and (min-width: 393px) {
+  .connection__icon {
+    height: 185px;
+    margin-bottom: 70px;
+  }
 }
 
 .connection__button {
@@ -1052,6 +1159,12 @@ button {
   border-radius: 20px;
   cursor: pointer;
 }
+@media screen and (min-width: 393px) {
+  .connection__button {
+    width: 178px;
+    height: 42px;
+  }
+}
 
 .connection__button--text {
   font-style: normal;
@@ -1060,6 +1173,11 @@ button {
   line-height: 1.33;
   text-align: center;
   color: #C6A603;
+}
+@media screen and (min-width: 393px) {
+  .connection__button--text {
+    font-size: 21px;
+  }
 }
 
 .connection__arrow--box {
@@ -1077,4 +1195,22 @@ button {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+}
+@media screen and (min-width: 393px) {
+  .connection__arrow {
+    width: 11px;
+    height: 22px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .connection__arrow {
+    width: 15px;
+    height: 24px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .connection__arrow {
+    width: 18px;
+    height: 30px;
+  }
 }/*# sourceMappingURL=main.css.map */
