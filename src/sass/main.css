@@ -1003,6 +1003,7 @@ button {
 @media screen and (min-width: 768px) {
   .connection {
     width: 768px;
+    padding-top: 416px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -1124,6 +1125,12 @@ button {
     margin-bottom: 90px;
   }
 }
+@media screen and (min-width: 768px) {
+  .connection__text {
+    font-size: 38px;
+    margin-bottom: 90px;
+  }
+}
 
 .connection__icon {
   display: block;
@@ -1141,6 +1148,11 @@ button {
   .connection__icon {
     height: 185px;
     margin-bottom: 70px;
+  }
+}
+@media screen and (min-width: 393px) {
+  .connection__icon {
+    margin-bottom: 82px;
   }
 }
 
@@ -1165,6 +1177,15 @@ button {
     height: 42px;
   }
 }
+@media screen and (min-width: 768px) {
+  .connection__button {
+    width: 240px;
+    height: 56px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 25px;
+  }
+}
 
 .connection__button--text {
   font-style: normal;
@@ -1177,6 +1198,11 @@ button {
 @media screen and (min-width: 393px) {
   .connection__button--text {
     font-size: 21px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .connection__button--text {
+    font-size: 28px;
   }
 }
 
