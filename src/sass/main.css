@@ -1291,4 +1291,178 @@ button {
     width: 18px;
     height: 30px;
   }
+}
+
+.blog {
+  position: relative;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 360px) {
+  .blog {
+    min-height: 800px;
+    background-image: url("../images/main/blog/blog360-1x.webp"), url("../images/main/blog/blog360-1x.jpg");
+  }
+}
+@media screen and (min-width: 360px) and (min-device-pixel-ratio: 2), screen and (min-width: 360px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 360px) and (min-resolution: 192dpi), screen and (min-width: 360px) and (min-resolution: 2dppx) {
+  .blog {
+    background-image: url("../images/main/blog/blog360-2x.webp"), url("../images/main/blog/blog360-2x.jpg");
+  }
+}
+@media screen and (min-width: 393px) {
+  .blog {
+    min-height: 873px;
+    background-image: url("../images/main/blog/blog393-1x.webp"), url("../images/main/blog/blog393-1x.jpg");
+  }
+}
+@media screen and (min-width: 393px) and (min-device-pixel-ratio: 2), screen and (min-width: 393px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 393px) and (min-resolution: 192dpi), screen and (min-width: 393px) and (min-resolution: 2dppx) {
+  .blog {
+    background-image: url("../images/main/blog/blog393-2x.webp"), url("../images/main/blog/blog393-2x.jpg");
+  }
+}
+@media screen and (min-width: 768px) {
+  .blog {
+    min-height: 1024px;
+    background-image: url("../images/main/blog/blog768-1x.webp"), url("../images/main/blog/blog768-1x.jpg");
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .blog {
+    background-image: url("../images/main/blog/blog768-2x.webp"), url("../images/main/blog/blog768-2x.jpg");
+  }
+}
+
+.blog__title--box {
+  position: absolute;
+  top: 54%;
+  left: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90px;
+  background-color: #EAECFB;
+  border: 0.5px dashed #DFCDFC;
+}
+@media screen and (min-width: 393px) {
+  .blog__title--box {
+    height: 94px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .blog__title--box {
+    height: 142px;
+  }
+}
+
+.blog__title {
+  font-family: "Cormorant Infant", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.32;
+  text-align: center;
+  color: #C6A603;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+@media screen and (min-width: 393px) {
+  .blog__title {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .blog__title {
+    font-size: 54px;
+  }
+}
+
+.blog__link {
+  position: absolute;
+  left: 22%;
+  top: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 200px;
+  height: 36px;
+  background: rgba(234, 236, 251, 0.82);
+  border: 1px solid #AC8A1A;
+  box-shadow: -1px -1px 18px rgba(0, 0, 0, 0.14), 1px 1px 18px rgba(0, 0, 0, 0.14);
+  border-radius: 20px;
+  cursor: pointer;
+}
+@media screen and (min-width: 393px) {
+  .blog__link {
+    width: 228px;
+    height: 42px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .blog__link {
+    left: 30%;
+    top: 78%;
+    width: 310px;
+    height: 56px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 25px;
+  }
+}
+
+.blog__link--text {
+  position: relative;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+  color: #C6A603;
+}
+@media screen and (min-width: 393px) {
+  .blog__link--text {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .blog__link--text {
+    font-size: 28px;
+  }
+}
+
+.blog__arrow--box {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blog__arrow {
+  display: block;
+  width: 9px;
+  height: 20px;
+  background-image: url("../images/svg/button__arrow.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 393px) {
+  .blog__arrow {
+    width: 11px;
+    height: 22px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .blog__arrow {
+    width: 15px;
+    height: 24px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .blog__arrow {
+    width: 18px;
+    height: 30px;
+  }
 }/*# sourceMappingURL=main.css.map */
