@@ -41,8 +41,8 @@
 
 .connection__title--box {
     position: absolute;
-    left: 0px;
-    top: 110px;
+    top: 12%;
+    left: 0;
     display: block;
     width: 250px;
     height: 90px;
@@ -50,11 +50,10 @@
     border: 0.5px dashed #DFCDFC;
 
     @media screen and (min-width: 393px) {
-        top: 114px;
         width: 282px;
         height: 94px;
     }
-
+ 
     @media screen and (min-width: 768px) {
         width: 478px;
         height: 142px;
@@ -71,6 +70,7 @@
     }
     
     @media screen and (min-width: 1536px) {
+        top: 14%;
         width: 568px;
         height: 152px;
     }
@@ -80,7 +80,7 @@
         height: 188px;
     }
 }
-
+ 
 .connection__title {
     font-family: $text-title;
     font-style: italic;
@@ -221,8 +221,8 @@
 
     @media screen and (min-width: 1280px) {
         position: absolute;
-        left: 25%;
         top: 72%;
+        left: 25%;
     }
 
     @media screen and (min-width: 1536px) {
@@ -230,8 +230,8 @@
     }
 
     @media screen and (min-width: 1920px) {
-        left: 27%;
         top: 68%;
+        left: 27%;
         width: 288px;
         height: 66px;
         padding-left: 20px;

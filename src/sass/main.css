@@ -634,50 +634,117 @@ button {
 }
 
 .courses {
-  position: relative;
-  margin: 0 auto;
   background-color: #F6F6F6;
 }
-@media screen and (min-width: 360px) and (max-width: 392px) {
+@media screen and (min-width: 360px) {
   .courses {
-    min-height: 800px;
-    background-image: url("../images/main/courses/courses360-1x.jpg");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    height: 800px;
   }
 }
-@media screen and (min-width: 360px) and (max-width: 392px) and (min-device-pixel-ratio: 2), screen and (min-width: 360px) and (max-width: 392px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 360px) and (max-width: 392px) and (min-resolution: 192dpi), screen and (min-width: 360px) and (max-width: 392px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 393px) {
   .courses {
-    background-image: url("../images/main/courses/courses360-2x.jpg");
-  }
-}
-@media screen and (min-width: 393px) and (max-width: 767px) {
-  .courses {
-    min-height: 873px;
-    background-image: url("../images/main/courses/courses393-1x.jpg");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-}
-@media screen and (min-width: 393px) and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (min-width: 393px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 393px) and (max-width: 767px) and (min-resolution: 192dpi), screen and (min-width: 393px) and (max-width: 767px) and (min-resolution: 2dppx) {
-  .courses {
-    background-image: url("../images/main/courses/courses393-2x.jpg");
+    height: 873px;
   }
 }
 @media screen and (min-width: 768px) {
   .courses {
+    height: 1024px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .courses {
+    height: 800px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .courses {
+    height: 768px;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .courses {
+    height: 864px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .courses {
+    height: 1080px;
+  }
+}
+
+.courses__inner {
+  position: relative;
+  margin: 0 auto;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 360px) {
+  .courses__inner {
+    width: 360px;
+    height: 800px;
+    background-image: url("../images/main/courses/courses360-1x.jpg");
+  }
+}
+@media screen and (min-width: 360px) and (min-device-pixel-ratio: 2), screen and (min-width: 360px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 360px) and (min-resolution: 192dpi), screen and (min-width: 360px) and (min-resolution: 2dppx) {
+  .courses__inner {
+    background-image: url("../images/main/courses/courses360-2x.jpg");
+  }
+}
+@media screen and (min-width: 393px) {
+  .courses__inner {
+    width: 393px;
+    height: 873px;
+    background-image: url("../images/main/courses/courses393-1x.jpg");
+  }
+}
+@media screen and (min-width: 393px) and (min-device-pixel-ratio: 2), screen and (min-width: 393px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 393px) and (min-resolution: 192dpi), screen and (min-width: 393px) and (min-resolution: 2dppx) {
+  .courses__inner {
+    background-image: url("../images/main/courses/courses393-2x.jpg");
+  }
+}
+@media screen and (min-width: 768px) {
+  .courses__inner {
+    width: 768px;
+    height: 1024px;
     padding-top: 40px;
     padding-bottom: 40px;
     background-image: none;
   }
 }
-@media screen and (max-width: 767px) {
-  .courses__picture {
-    display: none;
+@media screen and (min-width: 1280px) {
+  .courses__inner {
+    width: 1280px;
+    height: 800px;
+    padding-top: 52px;
+    padding-bottom: 52px;
   }
 }
+@media screen and (min-width: 1366px) {
+  .courses__inner {
+    width: 1366px;
+    height: 768px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .courses__inner {
+    width: 1536px;
+    height: 864px;
+    padding-top: 57px;
+    padding-bottom: 57px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .courses__inner {
+    width: 1920px;
+    height: 1080px;
+    padding-top: 68px;
+    padding-bottom: 68px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .courses__picture {
     display: block;
@@ -745,8 +812,8 @@ button {
 
 .courses__title--box {
   position: absolute;
-  left: 110px;
-  top: 124px;
+  top: 14%;
+  left: 31%;
   display: block;
   width: 250px;
   height: 90px;
@@ -755,14 +822,13 @@ button {
 }
 @media screen and (min-width: 393px) {
   .courses__title--box {
-    top: 132px;
-    width: 282px;
+    width: 272px;
     height: 94px;
   }
 }
 @media screen and (min-width: 768px) {
   .courses__title--box {
-    top: 132px;
+    top: 14%;
     left: 38%;
     width: 478px;
     height: 142px;
@@ -770,6 +836,7 @@ button {
 }
 @media screen and (min-width: 1280px) {
   .courses__title--box {
+    top: 20%;
     left: 59%;
     width: 524px;
     height: 144px;
@@ -777,7 +844,6 @@ button {
 }
 @media screen and (min-width: 1366px) {
   .courses__title--box {
-    top: 142px;
     left: 64%;
     width: 492px;
     height: 146px;
@@ -1010,8 +1076,8 @@ button {
 
 .connection__title--box {
   position: absolute;
-  left: 0px;
-  top: 110px;
+  top: 12%;
+  left: 0;
   display: block;
   width: 250px;
   height: 90px;
@@ -1020,7 +1086,6 @@ button {
 }
 @media screen and (min-width: 393px) {
   .connection__title--box {
-    top: 114px;
     width: 282px;
     height: 94px;
   }
@@ -1045,6 +1110,7 @@ button {
 }
 @media screen and (min-width: 1536px) {
   .connection__title--box {
+    top: 14%;
     width: 568px;
     height: 152px;
   }
@@ -1214,8 +1280,8 @@ button {
 @media screen and (min-width: 1280px) {
   .connection__button {
     position: absolute;
-    left: 25%;
     top: 72%;
+    left: 25%;
   }
 }
 @media screen and (min-width: 1536px) {
@@ -1225,8 +1291,8 @@ button {
 }
 @media screen and (min-width: 1920px) {
   .connection__button {
-    left: 27%;
     top: 68%;
+    left: 27%;
     width: 288px;
     height: 66px;
     padding-left: 20px;
@@ -1294,41 +1360,84 @@ button {
 }
 
 .blog {
+  background-color: #F6F6F6;
+}
+@media screen and (min-width: 360px) {
+  .blog {
+    height: 800px;
+  }
+}
+@media screen and (min-width: 393px) {
+  .blog {
+    height: 873px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .blog {
+    height: 1024px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .blog {
+    height: 800px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .blog {
+    height: 768px;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .blog {
+    height: 864px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .blog {
+    height: 1080px;
+  }
+}
+
+.blog__inner {
   position: relative;
+  margin: 0 auto;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 @media screen and (min-width: 360px) {
-  .blog {
-    min-height: 800px;
+  .blog__inner {
+    width: 360px;
+    height: 800px;
     background-image: url("../images/main/blog/blog360-1x.webp"), url("../images/main/blog/blog360-1x.jpg");
   }
 }
 @media screen and (min-width: 360px) and (min-device-pixel-ratio: 2), screen and (min-width: 360px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 360px) and (min-resolution: 192dpi), screen and (min-width: 360px) and (min-resolution: 2dppx) {
-  .blog {
+  .blog__inner {
     background-image: url("../images/main/blog/blog360-2x.webp"), url("../images/main/blog/blog360-2x.jpg");
   }
 }
 @media screen and (min-width: 393px) {
-  .blog {
-    min-height: 873px;
+  .blog__inner {
+    width: 393px;
+    height: 873px;
     background-image: url("../images/main/blog/blog393-1x.webp"), url("../images/main/blog/blog393-1x.jpg");
   }
 }
 @media screen and (min-width: 393px) and (min-device-pixel-ratio: 2), screen and (min-width: 393px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 393px) and (min-resolution: 192dpi), screen and (min-width: 393px) and (min-resolution: 2dppx) {
-  .blog {
+  .blog__inner {
     background-image: url("../images/main/blog/blog393-2x.webp"), url("../images/main/blog/blog393-2x.jpg");
   }
 }
 @media screen and (min-width: 768px) {
-  .blog {
-    min-height: 1024px;
+  .blog__inner {
+    width: 768px;
+    height: 1024px;
     background-image: url("../images/main/blog/blog768-1x.webp"), url("../images/main/blog/blog768-1x.jpg");
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
-  .blog {
+  .blog__inner {
     background-image: url("../images/main/blog/blog768-2x.webp"), url("../images/main/blog/blog768-2x.jpg");
   }
 }
