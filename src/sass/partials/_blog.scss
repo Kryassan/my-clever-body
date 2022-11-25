@@ -72,6 +72,54 @@
             background-image: url("../images/main/blog/blog768-2x.webp"), url("../images/main/blog/blog768-2x.jpg");
         }
     }
+
+    @media screen and (min-width: 1280px) {
+        width: 1280px;
+        height: 800px;
+        background-image: url("../images/main/blog/blog1280-1x.webp"), url("../images/main/blog/blog1280-1x.jpg");
+    
+        @media screen and (min-device-pixel-ratio: 2),
+            screen and (min-resolution: 192dpi),
+            screen and (min-resolution: 2dppx) {
+            background-image: url("../images/main/blog/blog1280-2x.webp"), url("../images/main/blog/blog1280-2x.jpg");
+        }
+    }
+
+    @media screen and (min-width: 1366px) {
+        width: 1366px;
+        height: 768px;
+        background-image: url("../images/main/blog/blog1366-1x.webp"), url("../images/main/blog/blog1366-1x.jpg");
+    
+        @media screen and (min-device-pixel-ratio: 2),
+            screen and (min-resolution: 192dpi),
+            screen and (min-resolution: 2dppx) {
+            background-image: url("../images/main/blog/blog1366-2x.webp"), url("../images/main/blog/blog1366-2x.jpg");
+        }
+    }
+
+    @media screen and (min-width: 1536px) {
+        width: 1536px;
+        height: 864px;
+        background-image: url("../images/main/blog/blog1536-1x.webp"), url("../images/main/blog/blog1536-1x.jpg");
+    
+        @media screen and (min-device-pixel-ratio: 2),
+            screen and (min-resolution: 192dpi),
+            screen and (min-resolution: 2dppx) {
+            background-image: url("../images/main/blog/blog1536-2x.webp"), url("../images/main/blog/blog1536-2x.jpg");
+        }
+    }
+
+    @media screen and (min-width: 1920px) {
+        width: 1920px;
+        height: 1080px;
+        background-image: url("../images/main/blog/blog1920-1x.webp"), url("../images/main/blog/blog1920-1x.jpg");
+    
+        @media screen and (min-device-pixel-ratio: 2),
+            screen and (min-resolution: 192dpi),
+            screen and (min-resolution: 2dppx) {
+            background-image: url("../images/main/blog/blog1920-2x.webp"), url("../images/main/blog/blog1920-2x.jpg");
+        }
+    }
 }
 
 .blog__title--box {
@@ -93,6 +141,33 @@
     @media screen and (min-width: 768px) {
         height: 142px;
     }
+
+    @media screen and (min-width: 1280px) {
+        top: 18%;
+        left: 59%;
+        width: 524px;
+        height: 144px;
+    }
+
+    @media screen and (min-width: 1366px) {
+        top: 16%;
+        left: 64%;
+        width: 492px;
+        height: 146px;
+    }
+
+    @media screen and (min-width: 1536px) {
+        top: 16%;
+        left: 63%;
+        width: 568px;
+        height: 152px;
+    }
+
+    @media screen and (min-width: 1920px) {
+        left: 65%;
+        width: 672px;
+        height: 188px;
+    }
 } 
 
 .blog__title {
@@ -112,12 +187,24 @@
     @media screen and (min-width: 768px) {
         font-size: 54px;
     }
+
+    @media screen and (min-width: 1366px) {
+        font-size: 56px;
+    }
+
+    @media screen and (min-width: 1536px) {
+        font-size: 58px;
+    }
+
+    @media screen and (min-width: 1920px) {
+        font-size: 70px;
+    }
 } 
  
 .blog__link {
     position: absolute;
-    left: 22%;
     top: 75%;
+    left: 22%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -137,16 +224,40 @@
     }
 
     @media screen and (min-width: 768px) {
-        left: 30%;
         top: 78%;
+        left: 30%;
         width: 310px;
         height: 56px;
         padding-left: 14px;
         padding-right: 14px;
         border-radius: 25px;
     }
-} 
 
+    @media screen and (min-width: 1280px) {
+        top: 50%;
+        left: 67%;
+        width: 312px;
+        height: 60px;
+    }
+
+    @media screen and (min-width: 1366px) {
+        left: 70%;
+    }
+
+    @media screen and (min-width: 1536px) {
+        left: 71%;
+    }
+
+    @media screen and (min-width: 1920px) {
+        left: 73%;
+        width: 370px;
+        height: 78px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 35px;
+    }
+}  
+  
 .blog__link--text {
     position: relative;
     font-style: normal;
@@ -162,6 +273,10 @@
 
     @media screen and (min-width: 768px) {
         font-size: 28px;
+    }
+
+    @media screen and (min-width: 1920px) {
+        font-size: 32px;
     }
 }
 
