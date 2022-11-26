@@ -1,0 +1,181 @@
+.videos {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    @media screen and (min-width: 360px) {
+        width: 360px;
+        height: 800px;
+    }
+
+    @media screen and (min-width: 393px) {
+        width: 393px;
+        height: 873px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 768px;
+        height: 1024px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        width: 1280px;
+        height: 800px;
+    }
+
+    @media screen and (min-width: 1366px) {
+        width: 1366px;
+        height: 768px;
+    }
+
+    @media screen and (min-width: 1536px) {
+        width: 1536px;
+        height: 864px;
+    }
+
+    @media screen and (min-width: 1920px) {
+        width: 1920px;
+        height: 1080px;
+    }
+}
+
+.videos__image--top {
+    display: block;
+    width: 330px;
+    height: 136px;
+    background-image: url("../images/main/videos/mandala-1x.png"), url("../images/main/videos/mandala-2x.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 170px;
+}
+ 
+.videos__title--box {
+    position: absolute;
+    top: 24%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    background-color: $accent-style;
+    border: 0.5px dashed #DFCDFC;
+}
+ 
+.videos__title {
+    font-family: $text-title;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.32;
+    text-align: center;
+    color: $accent-assist;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+ 
+.videos__slider {
+    position: relative;
+    width: 260px;
+    height: 160px;
+    margin: 0 auto;
+    margin-bottom: 62px;
+    border: 3px solid $accent;
+    box-shadow: 1px 1px 10px $accent;
+    border-radius: 10px;
+    background-image: url("../images/main/videos/test360.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.videos__slider--first,
+.videos__slider--second,
+.videos__slider--third {
+    @media screen and (max-vidth: 1279px) {
+        display: none;
+    }
+}
+
+.videos__slider--left {
+    position: absolute;
+    top: 34%;
+    left: -15%;
+    width: 50px;
+    height: 36px;
+    background-color: rgba(234, 236, 251, 0.82);
+    border: 1px solid $accent;
+    box-shadow: -1px -1px 18px rgba(0, 0, 0, 0.14), 1px 1px 18px rgba(0, 0, 0, 0.14);
+    background-image: url("../images/svg/arrows-left.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.videos__slider--right {
+    position: absolute;
+    top: 34%;
+    left: 95%;
+    width: 50px;
+    height: 36px;
+    background-color: rgba(234, 236, 251, 0.82);
+    border: 1px solid $accent;
+    box-shadow: -1px -1px 18px rgba(0, 0, 0, 0.14), 1px 1px 18px rgba(0, 0, 0, 0.14);
+    background-image: url("../images/svg/arrows-right.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ 
+.videos__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+    margin-bottom: 38px;
+    width: 198px;
+    height: 36px;
+    background: rgba(234, 236, 251, 0.82);
+    border: 1px solid $accent;
+    box-shadow: -1px -1px 18px rgba(0, 0, 0, 0.14), 1px 1px 18px rgba(0, 0, 0, 0.14);
+    border-radius: 20px;
+    cursor: pointer;
+}
+ 
+.videos__link--text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    color: $accent-assist;
+}
+
+.videos__arrows {
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-image: url("../images/svg/arrows-right.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+       
+.videos__image--bottom {
+    display: block;
+    width: 330px;
+    height: 136px;
+    background-image: url("../images/main/videos/mandala-1x.png"), url("../images/main/videos/mandala-2x.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ 
+ 
+ 

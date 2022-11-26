@@ -213,7 +213,7 @@
     width: 200px;
     height: 36px;
     background: rgba(234, 236, 251, 0.82);
-    border: 1px solid #AC8A1A;
+    border: 1px solid $accent;
     box-shadow: -1px -1px 18px rgba(0, 0, 0, 0.14), 1px 1px 18px rgba(0, 0, 0, 0.14);
     border-radius: 20px;
     cursor: pointer;
@@ -259,7 +259,6 @@
 }  
   
 .blog__link--text {
-    position: relative;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
