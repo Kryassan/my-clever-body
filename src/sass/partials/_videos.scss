@@ -1,5 +1,6 @@
 .videos {
     position: relative;
+    margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 30px;
 
@@ -11,6 +12,8 @@
     @media screen and (min-width: 393px) {
         width: 393px;
         height: 873px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     @media screen and (min-width: 768px) {
@@ -41,15 +44,26 @@
 
 .videos__image--top {
     display: block;
-    width: 330px;
+    width: 100%;
     height: 136px;
+    margin: 0 auto;
+    margin-bottom: 170px;
     background-image: url("../images/main/videos/mandala-1x.png"), url("../images/main/videos/mandala-2x.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    margin-bottom: 170px;
+    
+    @media screen and (min-width: 393px) {
+        height: 140px;
+        margin-bottom: 200px;
+    }
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 226px;
+        background-size: cover;
+    }
 }
- 
+      
 .videos__title--box {
     position: absolute;
     top: 24%;
@@ -61,8 +75,18 @@
     height: 90px;
     background-color: $accent-style;
     border: 0.5px dashed #DFCDFC;
+
+    @media screen and (min-width: 393px) {
+        top: 26%;
+        height: 94px;
+    }
+    
+    @media screen and (min-width: 768px) {
+        top: 21%;
+        height: 142px;
+    }
 }
- 
+   
 .videos__title {
     font-family: $text-title;
     font-style: italic;
@@ -72,6 +96,26 @@
     text-align: center;
     color: $accent-assist;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+
+    @media screen and (min-width: 393px) {
+        font-size: 36px;
+    }
+    
+    @media screen and (min-width: 768px) {
+        font-size: 54px;
+    }
+    
+    @media screen and (min-width: 1366px) {
+        font-size: 56px;
+    }
+    
+    @media screen and (min-width: 1536px) {
+        font-size: 58px;
+    }
+    
+    @media screen and (min-width: 1920px) {
+        font-size: 70px;
+    }
 }
  
 .videos__slider {
@@ -87,8 +131,20 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
 
+    @media screen and (min-width: 393px) {
+        width: 280px;
+        height: 176px;
+        margin-bottom: 58px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 440px;
+        height: 276px;
+        margin-bottom: 58px;
+    }
+}
+   
 .videos__slider--first,
 .videos__slider--second,
 .videos__slider--third {
@@ -112,8 +168,16 @@
     background-repeat: no-repeat;
     border-radius: 10px;
     cursor: pointer;
-}
 
+    @media screen and (min-width: 768px) {
+        top: 40%;
+        left: -12%;
+        width: 68px;
+        height: 54px;
+        border-radius: 15px;
+    }
+}
+   
 .videos__slider--right {
     position: absolute;
     top: 34%;
@@ -129,8 +193,16 @@
     background-repeat: no-repeat;
     border-radius: 10px;
     cursor: pointer;
+
+    @media screen and (min-width: 768px) {
+        top: 40%;
+        left: 96%;
+        width: 68px;
+        height: 54px;
+        border-radius: 15px;
+    }
 }
- 
+     
 .videos__link {
     display: flex;
     align-items: center;
@@ -146,8 +218,21 @@
     box-shadow: -1px -1px 18px rgba(0, 0, 0, 0.14), 1px 1px 18px rgba(0, 0, 0, 0.14);
     border-radius: 20px;
     cursor: pointer;
+
+    @media screen and (min-width: 393px) {
+        width: 218px;
+        height: 42px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 306px;
+        height: 56px;
+        padding-left: 14px;
+        padding-right: 14px;
+        border-radius: 25px;
+    }
 }
- 
+      
 .videos__link--text {
     font-style: normal;
     font-weight: 700;
@@ -155,6 +240,18 @@
     line-height: 1.33;
     text-align: center;
     color: $accent-assist;
+
+    @media screen and (min-width: 393px) {
+        font-size: 20px;
+    }
+    
+    @media screen and (min-width: 768px) {
+        font-size: 28px;
+    }
+    
+    @media screen and (min-width: 1920px) {
+        font-size: 32px;
+    }
 }
 
 .videos__arrows {
@@ -165,17 +262,36 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+
+    @media screen and (min-width: 393px) {
+        width: 30px;
+        height: 28px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 44px;
+        height: 40px;
+    }
 }
-       
+          
 .videos__image--bottom {
     display: block;
-    width: 330px;
+    width: 100%;
     height: 136px;
+    margin: 0 auto;
     background-image: url("../images/main/videos/mandala-1x.png"), url("../images/main/videos/mandala-2x.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+
+    @media screen and (min-width: 393px) {
+        height: 140px;
+    }
+
+    @media screen and (min-width: 768px) {
+        background-size: cover;
+    }
 }
  
  
- 
+    
