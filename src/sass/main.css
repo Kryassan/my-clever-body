@@ -1732,6 +1732,12 @@ button {
   .videos {
     width: 1280px;
     height: 800px;
+    padding-top: 70px;
+    background-image: url("../images/main/videos/mandala1280-1x.png"), url("../images/main/videos/mandala1280-2x.png");
+    background-position-x: center;
+    background-position-y: 57%;
+    background-size: 65%;
+    background-repeat: no-repeat;
   }
 }
 @media screen and (min-width: 1366px) {
@@ -1776,6 +1782,11 @@ button {
     background-size: cover;
   }
 }
+@media screen and (min-width: 1280px) {
+  .videos__image--top {
+    display: none;
+  }
+}
 
 .videos__title--box {
   position: absolute;
@@ -1799,6 +1810,15 @@ button {
   .videos__title--box {
     top: 21%;
     height: 142px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .videos__title--box {
+    position: unset;
+    width: 524px;
+    height: 144px;
+    margin: 0 auto;
+    margin-bottom: 110px;
   }
 }
 
@@ -1866,12 +1886,42 @@ button {
     margin-bottom: 58px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .videos__slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1050px;
+    height: 220px;
+    margin-bottom: 110px;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
+}
 
-@media screen and (max-vidth: 1279px) {
+@media screen and (max-width: 1279px) {
   .videos__slider--first,
 .videos__slider--second,
 .videos__slider--third {
     display: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .videos__slider--first,
+.videos__slider--second,
+.videos__slider--third {
+    display: block;
+    width: 320px;
+    height: 220px;
+    background-image: url("../images/main/videos/test.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 3px solid #AC8A1A;
+    box-shadow: 1px 1px 10px #AC8A1A;
+    border-radius: 10px;
   }
 }
 
@@ -1900,6 +1950,12 @@ button {
     border-radius: 15px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .videos__slider--left {
+    top: 40%;
+    left: -8%;
+  }
+}
 
 .videos__slider--right {
   position: absolute;
@@ -1924,6 +1980,12 @@ button {
     width: 68px;
     height: 54px;
     border-radius: 15px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .videos__slider--right {
+    top: 40%;
+    left: 101%;
   }
 }
 
@@ -2023,5 +2085,10 @@ button {
 @media screen and (min-width: 768px) {
   .videos__image--bottom {
     background-size: cover;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .videos__image--bottom {
+    display: none;
   }
 }/*# sourceMappingURL=main.css.map */
