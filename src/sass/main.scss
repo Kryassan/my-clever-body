@@ -1,6 +1,7 @@
 @import "./base/_basic-reset";
-@import "./base/_container";
 @import "./base/_variables";
+@import "./base/body";
+@import "./base/_container";
 @import "./partials/_header";
 @import "./partials/_hero";
 @import "./partials/features";
@@ -8,6 +9,7 @@
 @import "./partials/connection";
 @import "./partials/blog";
 @import "./partials/videos";
+@import "./partials/footer";
 
 
 
