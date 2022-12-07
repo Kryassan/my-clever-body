@@ -23,25 +23,24 @@
 
     @media screen and (min-width: 1280px) {
         width: 1280px;
-        height: 800px;
+        height: 390px;
+        padding-bottom: 10px;
     }
 
     @media screen and (min-width: 1366px) {
         width: 1366px;
-        height: 768px;
     }
 
     @media screen and (min-width: 1536px) {
         width: 1536px;
-        height: 864px;
     }
 
     @media screen and (min-width: 1920px) {
         width: 1920px;
-        height: 1080px;
+        height: 500px;
     }
 }
-    
+         
 .footer__title {
     margin-bottom: 32px;
     font-weight: 400;
@@ -59,8 +58,13 @@
         font-size: 34px;
         margin-bottom: 38px;
     }
+
+    @media screen and (min-width: 1920px) {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
 }
-     
+        
 .footer__form {
     position: relative;
     width: 320px;
@@ -73,8 +77,18 @@
         height: 50px;
         margin-bottom: 70px;
     }
+
+    @media screen and (min-width: 1280px) {
+        margin-bottom: 140px;
+    }
+
+    @media screen and (min-width: 1920px) {
+        width: 550px;
+        height: 64px;
+        margin-bottom: 190px;
+    }
 }
-  
+      
 .footer__form--input {
     display: block;
     width: 320px;
@@ -102,6 +116,10 @@
         @media screen and (min-width: 768px) {
             font-size: 19px;
         }
+
+        @media screen and (min-width: 768px) {
+            font-size: 26px;
+        }
     }
 
     &:not(:placeholder-shown) {
@@ -115,8 +133,16 @@
         font-size: 19px;
         line-height: 1.31;
     }
+
+    @media screen and (min-width: 1920px) {
+        width: 550px;
+        height: 64px;
+        padding-right: 98px;
+        font-size: 26px;
+        border-radius: 20px;
+    }
 }
-           
+                    
 .footer__form--button {
     position: absolute;
     top: 0;
@@ -136,9 +162,15 @@
         width: 66px;
         height: 50px;
     }
+
+    @media screen and (min-width: 1920px) {
+        width: 100px;
+        height: 64px;
+        border-radius: 20px;
+    }
 }
   
-.footer__documentations {
+.footer__documentations--list {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -153,8 +185,21 @@
         height: 120px;
         margin-bottom: 70px;
     }
+
+    @media screen and (min-width: 1280px) {
+        position: absolute;
+        top: 47%;
+        left: 5%;
+        margin: 0;
+        align-items: flex-start;   
+    }
+
+    @media screen and (min-width: 1920px) {
+        width: 400px;
+        height: 150px;
+    }
 }
-     
+                      
 .footer__documentations--link {
     font-weight: 400;
     font-size: 18px;
@@ -169,9 +214,13 @@
     @media screen and (min-width: 768px) {
         font-size: 26px;
     }
-}
-  
-.footer__socials {
+
+    @media screen and (min-width: 1920px) {
+        font-size: 32px;
+    }
+} 
+   
+.footer__socials--list {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -185,8 +234,17 @@
         height: 50px;
         margin-bottom: 30px;
     }
+
+    @media screen and (min-width: 1280px) {
+        margin-bottom: 10px;
+    }
+
+    @media screen and (min-width: 1920px) {
+        width: 290px;
+        height: 70px;
+    }
 }
-  
+    
 .footer__socials--youtube,
 .footer__socials--facebook,
 .footer__socials--instagram {
@@ -205,8 +263,14 @@
         width: 50px;
         height: 50px;
     }
+
+    @media screen and (min-width: 1920px) {
+        width: 70px;
+        height: 70px;
+        border-radius: 18px;
+    }
 } 
-                    
+                      
 .footer__socials--youtube {
     background-image: url("../images/svg/youtube.svg");
 }
@@ -230,8 +294,44 @@
     @media screen and (min-width: 768px) {
         font-size: 14px;
     }
+
+    @media screen and (min-width: 1280px) {
+        text-align: start;
+    }
+
+    @media screen and (min-width: 1920px) {
+        font-size: 16px;
+    }
 }
- 
+    
+.footer__logo {
+    @media screen and (max-width: 1279px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 1280px) {
+        position: absolute;
+        top: 48%;
+        left: 85%;
+        display: block;
+        width: 120px;
+        height: 160px;
+        background-image: url("../images/svg/logo__standart.svg");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: transparent;
+    }
+
+    @media screen and (min-width: 1920px) {
+        top: 50%;
+        left: 88%;
+        width: 152px;
+        height: 200px;
+    }  
+}    
+   
+  
  
 
  
